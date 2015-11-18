@@ -121,7 +121,7 @@ def ExcelWriteForAna(fname,content):
     if not os.path.exists(fname):
         xlsxwriter.Workbook(fname)
     columnlist=[u'网关sn',u'登录测试',u'版本检查测试',u'状态信息测试',u'控制测试',u'环境恢复',u'测试结果',u'开始时间',u'结束时间']
-    data = xlrd.open_workbook(fn)            # 打开fname文件
+    data = xlrd.open_workbook(fname)            # 打开fname文件
     data.sheet_names()                          # 获取xls文件中所有sheet的名称
     table = data.sheet_by_index(0)              # 通过索引获取xls文件第0个sheet
     nrows = table.nrows                         # 获取table工作表总行数
