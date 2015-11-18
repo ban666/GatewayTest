@@ -1,7 +1,0 @@
-
-2015-04-13 11:44:25,068: 测试1 Start,TestcaseNo.:Test_001 TestcaseLevel:Level 1
-
-2015-04-13 11:44:25,069: 测试2 Start,TestcaseNo.:Test_002 TestcaseLevel:Level 1
-
-2015-04-13 11:44:25,069: 测试2 Start,TestcaseNo.:Test_002 TestcaseLevel:Level 1
-
